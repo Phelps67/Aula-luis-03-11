@@ -26,6 +26,8 @@ header {
 }
 
 .letra {
+    justify-content: center;
+    align-items: center;
     border: none;
     border-radius: 50px;
     background-color: black;
@@ -34,9 +36,28 @@ header {
 }
 
 .letra2 {
+    justify-content: center;
+    align-items: center;
     border: none;
     border-radius: 50px;
     background-color: black;
     height: 4vh;
     width: 3.5vw;
+}
+
+.area-reiniciar {
+    margin: 3.5vh;
+}
+
+#reiniciar {
+    border: none;
+    border-radius: 50px;
+    background-color: black;
+    height: 8vh;
+    width: 10.5vw;
+}
+
+.coisa2 {
+    width: max-content;
+    margin-left: 9vh;
 }
