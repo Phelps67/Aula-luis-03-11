@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #21267A;
+} 
+
+header {
+    margin-top: 1vh;
+    text-align: center;
+}
+
+.area-palavra {
+    margin: 3.5vh;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.letra {
+    border: none;
+    border-radius: 50px;
+    background-color: black;
+    height: 4vh;
+    width: 3.5vw;
+}
+
+.letra2 {
+    border: none;
+    border-radius: 50px;
+    background-color: black;
+    height: 4vh;
+    width: 3.5vw;
+}

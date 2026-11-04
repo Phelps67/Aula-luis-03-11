@@ -1,18 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Balde de agua</title>
+    <link rel="stylesheet" href="index.css">
 
-</head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Adivinhe a Palavra</title>
-
-<link rel="stylesheet" href="estiloFlex.css">
 </head>
 
 <body>
@@ -20,45 +14,48 @@
         <h1>Adivinhe a Palavra</h1>
     </header>
     <main>
-        <section class="area-imagem">
-            <img id="imagem" src="img/1.png" alt="Desenho do personagem">
-        </section>
-        <section class="area-palavra">
-            <p id="palavra"></p>
-            <p id="mensagem"></p>
-            <p id="erros">Erros: 0 de 6</p>
-        </section>
-        <section class="teclado" id="teclado">
-            <button class="letra">A</button>
-            <button class="letra">B</button>
-            <button class="letra">C</button>
-            <button class="letra">D</button>
-            <button class="letra">E</button>
-            <button class="letra">F</button>
-            <button class="letra">G</button>
-            <button class="letra">H</button>
-            <button class="letra">I</button>
-            <button class="letra">J</button>
-            <button class="letra">K</button>
-            <button class="letra">L</button>
-            <button class="letra">M</button>
-            <button class="letra">N</button>
-            <button class="letra">O</button>
-            <button class="letra">P</button>
-            <button class="letra">Q</button>
-            <button class="letra">R</button>
-            <button class="letra">S</button>
-            <button class="letra">T</button>
-            <button class="letra">U</button>
-            <button class="letra">V</button>
-            <button class="letra">W</button>
-            <button class="letra">X</button>
-            <button class="letra">Y</button>
-            <button class="letra">Z</button>
-        </section>
-        <section class="area-reiniciar">
-            <button id="reiniciar">Reiniciar Partida</button>
-        </section>
+        <div class="display">
+            <section class="area-imagem">
+                <img id="imagem" src="FORCA_COMECO.png" alt="">
+            </section>
+            <section class="area-palavra">
+                <p id="palavra"></p>
+                <p id="mensagem"></p>
+                <p id="erros">Erros: 0 de 6</p>
+            </section>
+            <section class="teclado" id="teclado">
+                <button class="letra">A</button>
+                <button class="letra">B</button>
+                <button class="letra">C</button>
+                <button class="letra">D</button>
+                <button class="letra">E</button>
+                <button class="letra">F</button>
+                <button class="letra">G</button>
+                <button class="letra">H</button>
+                <button class="letra">I</button>
+                <button class="letra">J</button>
+                <button class="letra">K</button>
+                <button class="letra">L</button>
+                <button class="letra">M</button>
+                <br><br>
+                <button class="letra2">N</button>
+                <button class="letra2">O</button>
+                <button class="letra2">P</button>
+                <button class="letra2">Q</button>
+                <button class="letra2">R</button>
+                <button class="letra2">S</button>
+                <button class="letra2">T</button>
+                <button class="letra2">U</button>
+                <button class="letra2">V</button>
+                <button class="letra2">W</button>
+                <button class="letra2">X</button>
+                <button class="letra2">Y</button>
+                <button class="letra2">Z</button>
+            </section>
+            <section class="area-reiniciar">
+                <button id="reiniciar">Reiniciar Partida</button>
+            </section>
+        </div>
     </main>
     <script src="jogo.js"></script>
 </body>
